@@ -1,0 +1,15 @@
+.menu {
+  &__list {
+  }
+
+  &__item {
+    font-size: 12px;
+    & + & {
+      margin-top: 10px;
+    }
+  }
+
+  &__link {
+	text-transform: uppercase;
+  }
+}

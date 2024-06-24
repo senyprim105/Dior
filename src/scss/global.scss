@@ -1,0 +1,99 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  font-family: $font-main;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: $color-bg-main;
+  color: black;
+}
+input, select, textarea, button{
+  font-family:inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  color: inherit;
+  background-color: inherit;
+  text-transform: inherit;
+}
+a {
+  text-decoration: none;
+  background-color: transparent;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+  display: block;
+}
+p {
+  margin: 0;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container-fluid {
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@mixin container {
+  max-width: 1230px;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.container {
+  @include container;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+iframe{
+  margin: 0;
+  padding: 0;
+}
+ul,ol{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+li{
+  padding: 0;
+  margin: 0;
+}

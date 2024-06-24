@@ -1,0 +1,39 @@
+.header {
+    padding-top: 30px;
+    margin-bottom: 100px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-family: $font-second;
+    font-size: 14px;
+    order: 2;
+    margin-right: 131px;
+    margin-left: 150px;
+    text-transform: uppercase;
+    
+  }
+
+  &__logo-link {
+    order: 1;
+    margin-right: auto;
+    
+  }
+
+  &__logo-img {
+  }
+  &__menu {
+    order: 3;
+    margin-right:50px;
+    
+    max-width: 140px;
+  }
+  &__user-nav {
+    order: 4;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+  }
+}
