@@ -33,7 +33,7 @@ const CircularDependencyPlugin = require('circular-dependency-plugin');
 const DuplicatePackageCheckerPlugin = require("duplicate-package-checker-webpack-plugin");
 
 
-const scriptsLib = ["./node_modules/swiper/core/core.js"];
+const scriptsLib = ["./node_modules/swiper/swiper-bundle.min.js"];
 const stilesLib = [
   "./node_modules/normalize.css/normalize.css"];
 
